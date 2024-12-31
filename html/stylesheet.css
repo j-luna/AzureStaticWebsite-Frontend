@@ -1,9 +1,91 @@
 /* To Do */
 
-* {
-    font-family: Arial, Helvetica, sans-serif
+body {
+    font-family: 'Montserrat', Courier, monospace;
+    background: #0B0C10;
+    color: #C5C6C7;
+    margin: 1% 1% 1% 1%;
+}
+
+h1, h2, h3, a {
+    color: #66FCF1
 }
 
 h1 {
     font-size: 200%;
+}
+
+ul {
+    margin-left: 1%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ul ul {
+    margin-left: 1%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.parent-container {
+    max-width: 100%;
+    margin: auto auto;
+    padding: 2% 4%;
+    background: #1F2833;
+}
+
+.contact-info h1 {
+    align-self: flex-start;
+}
+
+.contact-info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.divider-subsection {
+    border: none;
+    height: 1px;
+    background-color: #0B0C10; 
+    margin: 1% 0;
+}
+
+.divider-main-section {
+    border: none;
+    height: 2px;
+    background-color: #45A29E; 
+    margin: 2% 0;
+}
+
+.resume-header {
+    font-weight: bold;
+    margin: 1% 0;
+}
+
+.left-experience-header, .right-experience-header {
+    font-style: italic;
+}
+
+.experience-details {
+    margin: 10px 0;
+}
+
+.experience-details ul {
+    list-style-type: square;
+}
+
+.job-entry {
+    font-weight: bold;
 }
