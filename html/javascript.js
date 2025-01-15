@@ -1,7 +1,7 @@
 // Function to update the visitor count
 function updateVisitorCount() {
     // Replace with your Azure Function URL
-    var functionUrl = 'https://fn-webproj14215.azurewebsites.net/api/visitorCount';
+    var functionUrl = 'https://fn-aswbackend412451.azurewebsites.net/api/visitorCount';
 
     // Make a fetch request to the Azure Function
     fetch(functionUrl)
